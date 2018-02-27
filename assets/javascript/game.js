@@ -32,7 +32,7 @@ $( document ).ready(function(){
         num2= Math.floor(Math.random()*11+1);
         num3= Math.floor(Math.random()*11+1);
         num4= Math.floor(Math.random()*11+1);
-        userTotal= 0;
+        playerTotal= 0;
         $('#finalTotal').text(playerTotal);
         } 
 
@@ -46,7 +46,7 @@ $( document ).ready(function(){
     $('#numberWins').text(wins);
     reset();
   }
-  //addes the losses to the userTotal
+  //addes the losses to the playerTotal
   function loser(){
   alert ("Sorry,You lose!");
     losses++;
