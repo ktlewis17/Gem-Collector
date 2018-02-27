@@ -34,7 +34,7 @@ div.header, div.instructions{
 }
 /* Classes */
 .numberToMatch, .playerTotal, .winsAndLosses{
-	float: left;
+	float: relative;
 	width: 15%;
 	height: 60px;
 }
