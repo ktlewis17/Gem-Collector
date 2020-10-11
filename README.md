@@ -1,2 +1,3 @@
-# week-4-game
-gem game
+# Gem Collector
+
+collect gems to match the targeted Goal
